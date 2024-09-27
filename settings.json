@@ -1,0 +1,112 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.mouseWheelZoom": true,
+    "editor.stickyScroll.enabled": false,
+    // ediotr cursor setting
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 6,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "blink",
+    "editor.cursorSurroundingLines": 3,
+    "editor.cursorSurroundingLinesStyle": "all",
+
+    // terminal cursor settigns
+    "terminal.integrated.fontFamily": "Courier New",
+    "terminal.integrated.fontSize": 20,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 4,
+    "terminal.integrated.cursorBlinking": true,
+    "workbench.colorCustomizations": {
+        // editor foreground colors 
+        "editorCursor.foreground": "#ff0",
+        "editor.background": "#0D1117",
+        "editor.foreground": "#00d9ff",
+        "editor.lineHighlightBackground": "#15151c",
+        "editor.selectionBackground": "#152e4b",
+        "editor.inactiveSelectionBackground": "#d2d4274b",
+        // ediotr sidebar colors
+        "sideBar.background": "#080213",
+        "sideBar.foreground": "#afe403",
+        "sideBarSectionHeader.background": "#0c0819",
+        "sideBarSectionHeader.foreground": "#06bdf0",
+        "sideBarActivityBarTop.border": "default",
+        // active tabs colors 
+        "tab.activeBackground": "#131534",
+        "tab.activeForeground": "#00f2ff",
+        "tab.inactiveBackground": "#0b0b19",
+        "tab.inactiveForeground": "#6a6a6a",
+        // top menu colors 
+        "titleBar.activeBackground": "#03051b", // Active title bar background color
+        "titleBar.activeForeground": "#00ffd9", // Active title bar text color
+        "titleBar.inactiveBackground": "#2c2c2c", // Inactive title bar background color
+        "titleBar.inactiveForeground": "#CCCCCC", // Inactive title bar text color,
+        // Title Bar Menus and Hover Effects
+        "menu.background":"#030513",
+        "menu.foreground":"#ccc",
+        "menu.selectionBackground":"#fec700",
+        "menu.selectionForeground":"#000",
+        "menu.separatorBackground":"#0ce8e4",
+        //    terminal colors
+        "terminalCursor.background": "#fff",
+        "terminalCursor.foreground": "#ff0",
+        "terminal.foreground": "#06ead7",
+        "terminalStickyScrollHover.background": "#172c33",
+        "terminalCommandDecoration.errorBackground": "#c58f8f",
+        "terminal.ansiRed": "#fff",
+        "terminal.ansiBrightRed":"#d72d02",
+        "terminal.background": "#07030b", // Terminal background color
+        "editorError.foreground": "#fff",
+        "terminal.border":"#43da02",
+        // quick input search bar
+
+        "quickInput.background":"#05020e",
+        "quickInput.foreground":"#cccccc",
+        "quickInputList.focusBackground":"#ff0",
+        "quickInputList.focusForeground":"#000",
+       "quickInputList.focusIconForeground":"#000",
+
+    //    vs code statusbar 
+
+        "statusBar.background":"#010414",
+        "statusBar.foreground": "#FFFFFF", // Status bar text color
+        "statusBar.border": "default", // Status bar border color
+        "statusBar.noFolderBackground": "#230202", // Status bar background color when no folder is open
+        "statusBar.noFolderForeground": "#CCCCCC", // Status bar text color when no folder is open
+        "statusBar.debuggingBackground": "#001c2a", // Status bar background color during debugging
+        "statusBar.debuggingForeground": "#FFFFFF", // Status bar text color during debugging
+        "statusBarItem.remoteBackground":"#1802a1"
+       
+    },
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.location": "top",
+    "workbench.activityBar.iconClickBehavior": "focus",
+    "workbench.iconTheme": "sweet-vscode-icons",
+
+    // appearance for lanagues 
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                // html tag colors
+                "scope": "entity.name.tag.html",
+                "settings": {
+                    "foreground": "#00ffe5"
+                }
+            },
+            // attributes names colors
+            {
+                "scope": "entity.other.attribute-name.html",
+                "settings": {
+                    "foreground": "#0095ff" // HTML attribute color
+                }
+            },
+            // attributes values colors
+            {
+                "scope": "string.quoted.double.html",
+                "settings": {
+                    "foreground": "#c9dcf6"
+                }
+            }
+        ]
+    }
+}
